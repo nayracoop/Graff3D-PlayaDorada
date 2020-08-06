@@ -23,20 +23,38 @@
                 <h3 class="copy">Tu hogar a metros del mar</h3>
             </article>
             <article id="form-container">
-                <div class="counter">
-
+                <div id="counter" class="counter">
+                    <ul>
+                        <li>
+                            <p id="dias" class="number"></p>
+                            <p class="text">Dias</p>
+                        </li>
+                        <li>
+                            <p id="horas" class="number"></p>
+                            <p class="text">Horas</p>
+                        </li>
+                        <li>
+                            <p id="minutos" class="number"></p>
+                            <p class="text">Mins.</p>
+                        </li>
+                        <li>
+                            <p id="segundos" class="number"></p>
+                            <p class="text">Segs.</p>
+                        </li>
+                    </ul>
                 </div>
                 <div class="form">
                     <h3>Registro</h3>
                     <p>Datos Personales</p>
                     <form action="#">
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
+                        <input type="text" placeholder="Nombre">
+                        <input type="text" placeholder="Apellido">
+                        <input type="text" placeholder="Telefono">
+                        <input type="text" placeholder="Email">
                         <p>Invita a 3 personas y obtén una bonificación de B/.250 en tu compra</p>
-                        <input type="text">
-                        <input type="text">
-                        <input type="text">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Email">
+                        <input type="text" placeholder="Email">
                         <button>Registrarse</button>
                     </form>
                 </div>
@@ -58,6 +76,7 @@
         </section>
     </div>
 
+    <script src="assets/js/counter.js"></script>
 </body>
 
 </html>
