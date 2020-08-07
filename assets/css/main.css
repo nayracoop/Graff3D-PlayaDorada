@@ -45,6 +45,7 @@ html, body{
     min-height: 100%;
     padding: 100px 160px;
     background-image: url('../img/cover.png'); 
+    background-size: 100%;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
