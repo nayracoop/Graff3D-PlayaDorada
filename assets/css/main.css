@@ -45,7 +45,7 @@ html, body{
     min-height: 100%;
     padding: 100px 160px;
     background-image: url('../img/cover.png'); 
-    background-size: 100%;
+    background-size: auto 100%;
     background-repeat: no-repeat;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -155,6 +155,7 @@ html, body{
     height: 40px;
     padding-left: 10px;
     border-radius: 5px;
+    box-shadow: 0.5px 0.5px 3px #d1d1d1;
 }
 
 #form-container .form form input:focus{
@@ -180,7 +181,7 @@ html, body{
     position: relative;
     width: 100%;
     min-height: 100%;
-    padding: 100px 160px;
+    padding: 30px 160px;
     background-image: url('../img/playa-2x.png');
     background-size:100%;
     background-repeat: no-repeat;
@@ -213,7 +214,7 @@ html, body{
 }
 
 #presentation .video img{
-    width: 90%;
+    width: 100%;
 }
 
 #presentation footer p{
